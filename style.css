@@ -11,17 +11,18 @@ h1
 }
 h2
 {
-    color: #2c3e50;
+    color: #fff;
     border-bottom: 2px solid #3498db;
     padding-bottom: 5px;
 }
 body
 {
+    background: url('images/math.jpg') no-repeat center center fixed;
+    background-size:cover;
     font-family:Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6;
     font-size:larger;
-    background-color:azure;
-    color:#333333;
+    color:#fff;
 }
 header
 {
@@ -89,7 +90,7 @@ section
 }
 .project-card
 {
-    background: white;
+    background: 0 0 5px rgb(from color r g b);
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 1);
@@ -108,7 +109,7 @@ section
 }
 .skills-list li 
 {
-    background: #eee;
+    background: rgb(from color r g b);
     padding: 0.5rem 1rem;
     border-radius: 20px;
 }

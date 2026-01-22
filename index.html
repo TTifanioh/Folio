@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css">
         <title>Portfolio : Mathematique et informatique</title>
+         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </head>
     <body>
         <header class="header">
@@ -23,59 +25,80 @@
             <h2>A PROPOS :</h2>
             <p>🎓 Je suis un étudiant en mathématique et informatique à l'université d'Antananarivo. <br>
             📝 Je suis passionné par la mathématique, l'algorithme, la donnée et l'intelligence artificielle.<br>
-            💡 Depuis que je suis a l'université, j'ai décovert la mérveille de la mathématique et de l'informatique. <br>
-            Ces 2 domaines sont très vaste, mais je vais continuee a les etudiees même en apprénant l'informatique en autodidacte.</p>
+            💡 Depuis que je suis a l'université, j'ai décovert la merveille de la mathématique et de l'informatique. <br>
+            Ces 2 domaines sont très vaste, mais je vais continuée a les étudiées même en apprénant l'informatique en autodidacte.</p>
         </section>
         <section id="project">
             <div class="contaneer">
                 <h2>MES PROJETS :</h2>
                 <p>Voici quelque projets que j'ai fait qui combine mes compétences en mathématique et informatique.</p>
                 <br>
-                <div class="projec-grid">
-                    <div class="project-card">
-                        <h3>Point, complexe et algèbre de quatérnion</h3>
-                        <p>Cette projet se présente en 3 programmes principales programmée en langage C++ pour un calcul rapide.</br></p>
-                        <p>👉 <a href="https://github.com/TTifanioh/PointComplexeQuaternion.git" class="math">Voir sur github</a></p>
-                    </div>
-                    <br>
-                    <div class="project-card">
-                    	<h3>Resolution d'équation non linéaire</h3>
-                    	<p>Cette projet est un projet programmée en python et avec un outils jupyter.</p>
-                    	<p>Elle permet d'approximer une solution d'un équation non linéaire rapidement.</p>
-                    	<p>👉 <a href="https://github.com/TTifanioh/ResolutionEquationNonLineaire.git" class="newton">Voir sur github</a></p>
-                    </div>
-                </div>
-            </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>PROJETS</th>
+                            <th>DESCRIPTION</th>
+                            <th>LIEN</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Point, complexe et algèbre de quatérnion</td>
+                            <td>Cette projet se présente en 3 programmes principales programmée en langage C++ pour un calcul rapide.</td>
+                            <td>👉 <a href="https://github.com/TTifanioh/PointComplexeQuaternion.git" class="math">Voir sur github</a></td>
+                        </tr>
+                        <tr>
+                    	    <td>Résolution d'équation non linéaire</td>
+                    	    <td>Cette projet est un projet programmée en python et avec un outils jupyter.<br>Elle permet d'approximer une solution d'un équation non linéaire rapidement.</td>
+                    	    <td>👉 <a href="https://github.com/TTifanioh/ResolutionEquationNonLineaire.git" class="newton">Voir sur github</a></td>
+                    </tbody>
+            </table>
         </section>
         <section id="skills">
             <div class="conteneer">
                 <h2>COMPETENCE :</h2>
                 <br>
-                <h3>📝 Mathématique :</h3>
-                <br>
-                <ul class="skills-list">
-                    <li>Analyse numérique</li>
-                    <li>Algèbre abstraite</li>
-                    <li>Probabilité et statistique</li>
-                    <li>Algorithme</li>
-                    <li>Géometrie</li>
-                    <li>Calcul numérique</li>
-                </ul>
-                <br>
-                <h3>💻 Informatique :</h3>
-                <ul class="skills-list">
-                    <li>C\C++ (langage de programmation)</li>
-                    <li>Python (langage de programmation)</li>
-                    <li>Html\Css</li>
-                    <li>Git\Github</li>
-                    <li>Jupyter</li>
-                </ul>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mathématique</th>
+                            <th>Informatique</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Analyse numérique</td>
+                            <td>Python (langage de programmation)</td>
+                        </tr>
+                        <tr>
+                            <td>Probabilité et statistique</td>
+                            <td>C\C++ (langage de programmation)</td>
+                        </tr>
+                        <tr>
+                            <td>Géometrie</td>
+                            <td>Html\Css</td>
+                        </tr>
+                        <tr>
+                            <td>Algèbre linéaire</td>
+                            <td>Git\Github</td>
+                        </tr>
+                        <tr>
+                            <td>Calcul numérique</td>
+                            <td>Jupyter</td>
+                        </tr>
+                        <tr>
+                                <td>Algorithme</td>
+                                <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
             </div>
         </section>
         <footer>
-            <p>Contact : <a href="randrianoelinatifanioh@gmail.com" class="contact">randrianoelinatifanioh@gmail.com</a> | Github : <a href="https://github.com/TTifanioh" class="contact">TTifanioh</a></p>
-            <p>&copy; 2025 RANDRIANOELINA Tifanioh M F. Tous droits réservés</p>
-        </footer>
+            <p><ion-icon name="logo-contact" class="contact"></io-icon>Contact : <a href="randrianoelinatifanioh@gmail.com" class="contact">randrianoelinatifanioh@gmail.com</a> | <ion-icon name="logo-github" class="github"></ion-icon>Github : <a href="https://github.com/TTifanioh" class="contact">TTifanioh</a></p>
+            <p>&copy; 2025 RANDRIANOELINA Tifanioh Mahefa F. Tous droits réservés</p>
+        </footero>
     </body>
 </html>
 
